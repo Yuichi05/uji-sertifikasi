@@ -1,0 +1,4 @@
+kalo menggunakan paginate di kategori kontroller 
+itu akan menghasilkan ada prev dan next dan ada angkanya
+sedangkan kalo menggunakan simplepaginate itu hanya
+menghasilkan prev dan nextnya saja

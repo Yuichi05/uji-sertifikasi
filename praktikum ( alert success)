@@ -1,0 +1,11 @@
+Alert::success('Success Title', 'Success Message');
+composer require realrashid/sweet-alert
+'providers' => [
+    /*
+    * Package Service Providers...
+    */
+    RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+],
+@include('sweetalert::alert')
+php artisan sweetalert:publish
+

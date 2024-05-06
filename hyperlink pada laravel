@@ -1,0 +1,20 @@
+Ada 2 cara untuk transportasi ke file lain
+
+1. <!-- cara hyperlink di laravel menggunakan fungsi url -->
+<a href="{{ url('mahasantri') }}">
+    <li>Data Mahasantri</li>
+</a>
+
+2. <!-- cara 2 hyperlink dilaravel menggunakan name route -->
+<a href="{{ route('santri') }}">
+    <li>Data Mahasantri</li>
+</a>
+dan ininya juga diubah
+Route::get('/mahasantri_petk', [MahasantriController::class, 'index'])->name('santri');
+
+dan juga bisa menggunkan cara hyperlik dilaravel menggunkan url yg panjng
+<a href="{{ url('mahasantri_petik') }}">
+    <li>Data Mahasantri</li>
+</a>
+dan ininya juga diubah
+Route::get('/mahasantri_petk', [MahasantriController::class, 'index'])->name('santri');

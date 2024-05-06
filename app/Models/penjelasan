@@ -1,0 +1,5 @@
+cara membuat model yg sudah ada template textnya dan sudah ada migrationnya dan kontrollernya
+sintaks modelnya yg blm ada isinya di kontroller
+php artisan make:model Buku -mc
+sintaks modelnya yg sudah ada isi kontrollernya
+php artisan make:model Buku -mc --resource
